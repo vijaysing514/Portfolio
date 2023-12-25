@@ -95,7 +95,7 @@
 //   },
 // ];
 
-// const About = () => {
+const About = () => {
 
 //   const [index,setIndex] = useState(0);
 
@@ -159,6 +159,6 @@
 //       </motion.div>
 //     </div>
 //   </div>;
-// };
+};
 
-// export default About;
+export default About;
