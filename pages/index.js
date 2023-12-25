@@ -14,7 +14,7 @@ const Home = () => {
             Transorming ideas <br/> into <span className="text-accent">Digital reality</span> 
           </motion.h1>
           <motion.p variants={fadeIn('down',0.3)} initial="hidden" animate="show" exit="hidden" className="max-w-sm xl:max-w-xl max-auto xl:mx-0 mb-10 xl:mb-16">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
           </motion.p>
           <div className="flex justify-center relative xl:hidden">
             <ProjectBtn />

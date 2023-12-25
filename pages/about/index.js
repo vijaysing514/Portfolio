@@ -108,7 +108,7 @@ const About = () => {
     <div className="container mx-auto h-full flex flex-col xl:flex-row items-center">
       <div className="flex-1 flex flex-col justify-center">
         <motion.h2 variants={fadeIn('right',0.2)} initial="hidden" animate="show" exit="hidden" className="h2 my-4">Camptivating <span className="text-accent">Stories</span> birth magnificant Design</motion.h2>
-        <motion.p variants={fadeIn('right',0.4)} initial="hidden" animate="show" exit="hidden" className="my-4 max-w-[500px] mx-auto xl:mx-0 md-6 xl:md-12 px-2 xl:px-0 ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</motion.p>
+        <motion.p variants={fadeIn('right',0.4)} initial="hidden" animate="show" exit="hidden" className="my-4 max-w-[500px] mx-auto xl:mx-0 md-6 xl:md-12 px-2 xl:px-0 ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</motion.p>
         <motion.div variants={fadeIn('right',0.6)} initial="hidden" animate="show" exit="hidden" className="hidden md:flex md:max-w-xl xl:max-w-none mx-auto xl:mx-0 mb-8">
           <div className="flex-1 flex xl:gap-x-6 my-4">
             <div className="relative flex-1 after:w-[1px] after:bg-white/10 after:h-full after:absolute after:right-0 after:top-0">
@@ -150,7 +150,7 @@ const About = () => {
               <div>{item.stage}</div>
               <div className="flex gap-x-4">
               {item.icons?.map((icon,itemIndex)=>{
-                return <div className="text-2xl text-white">{icon}</div>
+                return <div key={itemIndex} className="text-2xl text-white">{icon}</div>
               })}
               </div>
             </div>
