@@ -13,14 +13,13 @@ import {
   FaJs,
   FaReact,
   FaWordpress,
-  FaFigma,
+  FaBootstrap,
+  FaPhp,
 } from "react-icons/fa";
 
 import {
   SiNextdotjs,
-  SiFramer,
-  SiAdobexd,
-  SiAdobephotoshop,
+  SiTailwindcss,
 } from "react-icons/si";
 
  //data
@@ -33,29 +32,14 @@ const aboutData = [
         icons: [
           <FaHtml5 key="html5"/>,
           <FaCss3 key="Css3"/>,
+          <SiTailwindcss key="SiTailwindcss"/>,
           <FaJs key="FaJs"/>,
+          <FaBootstrap key="FaBootstrap"/>,
+          <FaWordpress key="FaWordpress"/>,
           <FaReact key="FaReact"/>,
           <SiNextdotjs key="SiNextdotjs"/>,
-          <SiFramer key="SiFramer"/>,
-          <FaWordpress key="FaWordpress"/>,
+          <FaPhp key="FaPhp"/>,
         ],
-      },
-      {
-        title: 'UI/UX Design',
-        icons: [<FaFigma key="FaFigma"/>, <SiAdobexd key="SiAdobexd" />, <SiAdobephotoshop key="SiAdobephotoshop"/>],
-      },
-    ],
-  },
-  {
-    title: 'awards',
-    info: [
-      {
-        title: 'Webby Awards - Honoree',
-        stage: '2011 - 2012',
-      },
-      {
-        title: 'Adobe Design Achievement Awards - Finalist',
-        stage: '2009 - 2010',
       },
     ],
   },
@@ -63,16 +47,12 @@ const aboutData = [
     title: 'experience',
     info: [
       {
-        title: 'UX/UI Designer - XYZ Company',
-        stage: '2012 - 2023',
+        title: 'Web Developer - Geecon Global',
+        stage: '2020 - 2023',
       },
       {
-        title: 'Web Developer - ABC Agency',
-        stage: '2010 - 2012',
-      },
-      {
-        title: 'Intern - DEF Corporation',
-        stage: '2008 - 2010',
+        title: 'Intern - GVI Centre of Excellence',
+        stage: '2019 - 2020',
       },
     ],
   },
@@ -80,16 +60,12 @@ const aboutData = [
     title: 'credentials',
     info: [
       {
-        title: 'Web Development - ABC University, LA, CA',
-        stage: '2011',
+        title: 'Web Development Certified - SCTPL Mumbai with 86.7%',
+        stage: '2018',
       },
       {
-        title: 'Computer Science Diploma - AV Technical Institute',
-        stage: '2009',
-      },
-      {
-        title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-        stage: '2006',
+        title: 'Computer Science Degree - University of Mumbai',
+        stage: '2017',
       },
     ],
   },

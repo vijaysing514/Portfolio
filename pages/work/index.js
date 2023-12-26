@@ -8,6 +8,9 @@ import { fadeIn } from '../../variants';
 
 
 const Work = () => {
+
+  // const [index,setIndex] = useState(0);
+
   return <div className='bg-primary/30 h-full py-36 flex items-center'>
     <ParticlesContainer />
     <Circles />
