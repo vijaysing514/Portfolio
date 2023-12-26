@@ -107,25 +107,22 @@ const About = () => {
     </motion.div>
     <div className="container mx-auto h-full flex flex-col xl:flex-row items-center">
       <div className="flex-1 flex flex-col justify-center">
-        <motion.h2 variants={fadeIn('right',0.2)} initial="hidden" animate="show" exit="hidden" className="h2 my-4">Camptivating <span className="text-accent">Stories</span> birth magnificant Design</motion.h2>
-        <motion.p variants={fadeIn('right',0.4)} initial="hidden" animate="show" exit="hidden" className="my-4 mx-auto xl:mx-0 md-6 xl:md-12 px-2 xl:px-0 ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</motion.p>
-        <motion.div variants={fadeIn('right',0.6)} initial="hidden" animate="show" exit="hidden" className="hidden md:flex md:max-w-xl xl:max-w-none mx-auto xl:mx-0 mb-8">
+        <motion.h2 variants={fadeIn('right',0.2)} initial="hidden" animate="show" exit="hidden" className="h2 my-4">I build <span className="text-accent">things</span> for the web.</motion.h2>
+        <motion.p variants={fadeIn('right',0.4)} initial="hidden" animate="show" exit="hidden" className="my-4 mx-auto xl:mx-0 md-6 xl:md-12 px-2 xl:px-0 ">
+Greetings! I&apos;m Vijay, and I derive immense joy from crafting digital entities that come alive on the internet. My journey into web development commenced in 2018 when I ventured into tweaking custom themes. Little did I know that piecing together a bespoke reblog button would become a pivotal lesson, offering insights into the realms of HTML and CSS!</motion.p>
+        <motion.div variants={fadeIn('right',0.6)} initial="hidden" animate="show" exit="hidden" className="md:flex md:max-w-xl xl:max-w-none mx-auto xl:mx-0 mb-8">
           <div className="flex-1 flex xl:gap-x-6 my-4">
             <div className="relative after:w-[1px] after:bg-white/10 after:h-full after:absolute after:right-0 after:top-0">
-              <div className="text-2xl xl:text-4xl font-extrabold md-2 text-accent"><CountUp start={0} end={10} duration={5}/>+</div>
-              <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">Years of experience</div>
+              <div className="text-2xl xl:text-4xl font-extrabold md-2 text-accent"><CountUp start={0} end={3} duration={5}/>+</div>
+              <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">Years of Experience</div>
             </div>
             <div className="relative after:w-[1px] after:bg-white/10 after:h-full after:absolute after:right-0 after:top-0">
               <div className="text-2xl xl:text-4xl font-extrabold md-2 text-accent"><CountUp start={0} end={100} duration={5}/>+</div>
-              <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">satified clients</div>
-            </div>
-            <div className="relative after:w-[1px] after:bg-white/10 after:h-full after:absolute after:right-0 after:top-0">
-              <div className="text-2xl xl:text-4xl font-extrabold md-2 text-accent"><CountUp start={0} end={130} duration={5}/>+</div>
-              <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">finished projects</div>
+              <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">Satisfied Clients</div>
             </div>
             <div className="relative flex-1">
-              <div className="text-2xl xl:text-4xl font-extrabold md-2 text-accent"><CountUp start={0} end={30} duration={5}/>+</div>
-              <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">winning avards</div>
+              <div className="text-2xl xl:text-4xl font-extrabold md-2 text-accent"><CountUp start={0} end={100} duration={5}/>+</div>
+              <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">Delivered Projects</div>
             </div>
           </div>
         </motion.div>

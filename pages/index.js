@@ -11,10 +11,10 @@ const Home = () => {
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-balck/30 to-black/10 ">
         <div className="flex flex-col text-center justify-center xl:pt-40 xl:text-left h-full container mx-auto">
           <motion.h1 variants={fadeIn('down',0.2)} initial="hidden" animate="show" exit="hidden" className="h1">
-            Transorming ideas <br/> into <span className="text-accent">Digital reality</span> 
+          Coding Dreams<br/> into <span className="text-accent">Digital reality</span> 
           </motion.h1>
           <motion.p variants={fadeIn('down',0.3)} initial="hidden" animate="show" exit="hidden" className="max-w-sm xl:max-w-xl max-auto xl:mx-0 mb-10 xl:mb-16">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          In the vast realm of digital innovation, my passion as a web developer is to breathe life into your ideas, transforming concepts into interactive and visually stunning realities. 
           </motion.p>
           <div className="flex justify-center relative xl:hidden">
             <ProjectBtn />
