@@ -4,7 +4,8 @@ import {Swiper, SwiperSlide} from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/free-mode'
 import 'swiper/css/pagination'
-import {Pagination} from 'swiper'
+import 'swiper/css/navigation'
+import {Navigation, Pagination} from 'swiper'
 // icons
 import {BsArrowRight} from 'react-icons/bs'
 import Image from 'next/image'
@@ -115,11 +116,10 @@ const WorkSlider = () => {
           })}
         </div>
   <Swiper
+  modules={[Navigation, Pagination]}
   spaceBetween={10}
-  pagination={{
-    clickable:true,
-  }}
-  modules={[Pagination]}
+  navigation
+  pagination={{ clickable: true }}
   className='h-[280px] sm:h-[480px]'
   >
     {workSlides[index].slides.map((slide,index)=>{
