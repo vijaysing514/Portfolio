@@ -3,6 +3,8 @@ import Layout from '../components/Layout';
 import Transition from '../components/Transition';
 import { useRouter } from 'next/router';
 import { AnimatePresence,motion } from 'framer-motion';
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
   return (
@@ -13,6 +15,7 @@ function MyApp({ Component, pageProps }) {
           <Component {...pageProps} />
           </motion.div>
       </AnimatePresence>
+      <SpeedInsights />
     </Layout>
   );
 }
