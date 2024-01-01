@@ -58,7 +58,7 @@ const workSlides = [
     ],
     },
     {
-      title:'Next.js',
+      title:'ReactJs',
       slides: [
         {
           images: [
