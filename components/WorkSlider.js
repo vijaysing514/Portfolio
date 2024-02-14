@@ -66,6 +66,10 @@ const workSlides = [
               title: 'https://vijaysingh.vercel.app/',
               path: '/portfolio.png',
             },
+            {
+              title: 'https://vijay-cricket-score-backend.vercel.app/',
+              path: '/Cricket-Project-score-backend.png',
+            },
           ],
         },
       ],
