@@ -82,32 +82,32 @@ const workSlides = [
         },
       ],
       },
-{
-title:'Laravel',
-slides: [
-  {
-    images: [
-      {
-        title: 'https://www.feedbackvalue.com/',
-        path: '/feedback.png',
-      },
-    ],
-  },
-],
-},
-{
-  title:'CodeIgniter',
-  slides: [
-    {
-      images: [
-        {
-          title: 'https://apps.globalhrin.com/',
-          path: '/global.png',
-        },
-      ],
-    },
-  ],
-  },
+// {
+// title:'Laravel',
+// slides: [
+//   {
+//     images: [
+//       {
+//         title: 'https://www.feedbackvalue.com/',
+//         path: '/feedback.png',
+//       },
+//     ],
+//   },
+// ],
+// },
+// {
+//   title:'CodeIgniter',
+//   slides: [
+//     {
+//       images: [
+//         {
+//           title: 'https://apps.globalhrin.com/',
+//           path: '/global.png',
+//         },
+//       ],
+//     },
+//   ],
+//   },
 ];
 
 
