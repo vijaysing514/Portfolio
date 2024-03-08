@@ -63,16 +63,20 @@ const workSlides = [
         {
           images: [
             {
-              title: 'https://vijaysingh.vercel.app/',
-              path: '/portfolio.png',
+              title: 'https://dashboard-vijay.vercel.app/',
+              path: '/dashboard-app.png',
+            },
+            {
+              title: 'https://vinstagram.vercel.app/',
+              path: '/vinstagram.png',
             },
             {
               title: 'https://vijay-cricket-score-backend.vercel.app/',
               path: '/Cricket-Project-score-backend.png',
             },
             {
-              title: 'https://vinstagram.vercel.app/',
-              path: '/vinstagram.png',
+              title: 'https://vijaysingh.vercel.app/',
+              path: '/portfolio.png',
             },
           ],
         },
