@@ -13,7 +13,7 @@ import Link from "next/link";
 // data
 const workSlides = [
   {
-    title:'WordPress',
+    title:'Websites',
     slides: [
       {
         images: [
@@ -58,7 +58,7 @@ const workSlides = [
     ],
     },
     {
-      title:'ReactJs',
+      title:'ReactJs Apps',
       slides: [
         {
           images: [
