@@ -12,7 +12,7 @@ const Resume = () => {
     <ParticlesContainer />
     <Circles />
     <div className='container mx-auto'>
-      <div className='flex flex-col xl:flex-row gap-x-8'>
+      <div className=''>
         <motion.div variants={fadeIn('up',0.6)} initial="hidden" animate="show" exit="hidden" className='w-full xl:max-w-[65%]'>
         <div>
       <h1>Vijay Singh Rwsume</h1>
