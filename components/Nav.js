@@ -11,8 +11,8 @@ import { FaFilePdf } from "react-icons/fa6";
 // nav data
 export const navData = [
   { name: 'home', path: '/', icon: <HiHome /> },
+  { name: 'resume', path: '/resume', icon: <FaFilePdf /> },
   { name: 'work', path: '/work', icon: <HiViewColumns /> },
-  { name: 'resume', path: '/', icon: <FaFilePdf /> },
   { name: 'services', path: '/services', icon: <HiRectangleGroup /> },
   { name: 'about', path: '/about', icon: <HiUser /> },
   // {
