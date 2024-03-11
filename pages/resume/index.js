@@ -8,21 +8,18 @@ import { fadeIn } from '../../variants';
 
 
 const Resume = () => {
-  return <div className='bg-primary/30 h-full'>
-    <div className='container mx-auto'>
-      <div className=''>
-        <motion.div variants={fadeIn('up',0.6)} initial="hidden" animate="show" exit="hidden" className='w-full xl:max-w-[65%]'>
-        <div>
+   return <div className='bg-primary/30 h-full py-36 flex items-center'>
+    <ParticlesContainer />
+    <Circles />
+    <div>
+      <h1>PDF Viewer</h1>
       <iframe
         title="PDF Viewer"
-        src="/vijay-singh.pdf"
+        src="your_pdf_file.pdf"
         width="100%"
         height="500px"
         frameborder="0"
       ></iframe>
-    </div>
-        </motion.div>
-      </div>
     </div>
     <Bulb />
   </div>;
