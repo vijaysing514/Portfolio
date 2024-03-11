@@ -7,7 +7,14 @@ const ProjectsBtn = () => {
   const handleDownloadResume = () => {
   // Replace the fileUrl with the actual URL of your resume PDF
   const fileUrl = '/vijay-singh.pdf';
-  window.open(fileUrl, '_blank');
+  // window.open(fileUrl, '_blank');
+    // Create a temporary anchor element
+  const link = document.createElement('a');
+  link.href = fileUrl;
+  link.setAttribute('download', 'resume.pdf'); // Set the filename for the downloaded file
+  document.body.appendChild(link);
+  link.click(); // Simulate a click on the anchor element
+  document.body.removeChild(link); // Clean up: remove the anchor element from the document
 };
   
   return <div className="mx-auto xl:mx-0 ">
