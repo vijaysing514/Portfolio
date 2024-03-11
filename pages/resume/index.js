@@ -15,7 +15,7 @@ const Resume = () => {
       <div className='flex flex-col xl:flex-row gap-x-8'>
         <motion.div variants={fadeIn('up',0.6)} initial="hidden" animate="show" exit="hidden" className='w-full xl:max-w-[65%]'>
         <div>
-      <h1>PDF Viewer</h1>
+      <h1>Vijay Singh Rwsume</h1>
       <iframe
         title="PDF Viewer"
         src="/vijay-singh.pdf"
