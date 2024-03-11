@@ -13,8 +13,8 @@ const Services = () => {
     <div className='container mx-auto'>
       <div className='flex flex-col xl:flex-row gap-x-8'>
        <iframe
-        title="PDF Viewer"
-        src="your_pdf_file.pdf"
+        title="Vijay Singh Resume"
+        src="vijay-singh.pdf"
         width="100%"
         height="500px"
         frameborder="0"
