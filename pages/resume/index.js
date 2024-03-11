@@ -15,7 +15,7 @@ const Resume = () => {
       <h1>PDF Viewer</h1>
       <iframe
         title="PDF Viewer"
-        src="your_pdf_file.pdf"
+        src="vijay-singh.pdf"
         width="100%"
         height="500px"
         frameborder="0"
