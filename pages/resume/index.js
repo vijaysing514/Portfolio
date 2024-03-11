@@ -1,6 +1,5 @@
 
 import ParticlesContainer from '../../components/ParticlesContainer';
-import ServiceSlider from '../../components/ServiceSlider';
 import Bulb from '../../components/Bulb';
 import Circles from '../../components/Circles';
 import { motion } from 'framer-motion';
@@ -19,7 +18,16 @@ const Resume = () => {
           <motion.p variants={fadeIn('up',0.4)} initial="hidden" animate="show" exit="hidden" className='mb-4 max-w-[400px] mx-auto lg:mx-0'>Embark on a journey of digital transformation with my comprehensive range of services tailored to elevate your online presence.</motion.p>
         </div>
         <motion.div variants={fadeIn('up',0.6)} initial="hidden" animate="show" exit="hidden" className='w-full xl:max-w-[65%]'>
-        <ServiceSlider />
+        <div>
+      <h1>PDF Viewer</h1>
+      <iframe
+        title="PDF Viewer"
+        src="/vijay-singh.pdf"
+        width="100%"
+        height="500px"
+        frameborder="0"
+      ></iframe>
+    </div>
         </motion.div>
       </div>
     </div>
