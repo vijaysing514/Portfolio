@@ -7,11 +7,12 @@ import {
   HiChatBubbleBottomCenterText,
   HiEnvelope,
 } from 'react-icons/hi2';
-
+import { FaFilePdf } from "react-icons/fa6";
 // nav data
 export const navData = [
   { name: 'home', path: '/', icon: <HiHome /> },
   { name: 'work', path: '/work', icon: <HiViewColumns /> },
+  { name: 'resume', path: '/', icon: <FaFilePdf /> },
   { name: 'services', path: '/services', icon: <HiRectangleGroup /> },
   { name: 'about', path: '/about', icon: <HiUser /> },
   // {
