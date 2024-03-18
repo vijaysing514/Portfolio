@@ -75,6 +75,10 @@ const workSlides = [
               path: '/Cricket-Project-score-backend.png',
             },
             {
+              title: 'https://vijay-chatting.vercel.app/',
+              path: '/chatapp.png',
+            },
+            {
               title: 'https://vijaysingh.vercel.app/',
               path: '/portfolio.png',
             },
