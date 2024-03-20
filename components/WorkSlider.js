@@ -25,17 +25,17 @@ const workSlides = [
             {
               title: 'https://vijay-chatting.vercel.app/',
               path: '/chatapp.png',
-              name: 'Chat Bot App',
+              name: 'AI Chat Bot App',
+            },
+            {
+              title: 'https://vijay-image-ai.vercel.app/',
+              path: '/imageai.png',
+               name: 'AI Image Genration App',
             },
             {
               title: 'https://vijay-cricket-score-backend.vercel.app/',
               path: '/Cricket-Project-score-backend.png',
               name: 'Cricket Sorecard App',
-            },
-             {
-              title: 'https://vijay-image-ai.vercel.app/',
-              path: '/imageai.png',
-               name: 'AI Image Genration App',
             },
           ],
         },
