@@ -13,6 +13,43 @@ import Link from "next/link";
 // data
 const workSlides = [
   {
+      title:'ReactJs Apps',
+      slides: [
+        {
+          images: [
+            {
+              title: 'https://dashboard-vijay.vercel.app/',
+              path: '/dashboard-app.png',
+            },
+            {
+              title: 'https://vijay-chatting.vercel.app/',
+              path: '/chatapp.png',
+            },
+            {
+              title: 'https://vijay-cricket-score-backend.vercel.app/',
+              path: '/Cricket-Project-score-backend.png',
+            },
+             {
+              title: 'https://vijay-image-ai.vercel.app/',
+              path: '/imageai.png',
+            },
+          ],
+        },
+        {
+          images: [
+            {
+              title: 'https://vinstagram.vercel.app/',
+              path: '/vinstagram.png',
+            },
+            {
+              title: 'https://vijaysingh.vercel.app/',
+              path: '/portfolio.png',
+            },
+          ],
+        },
+      ],
+      },
+  {
     title:'Websites',
     slides: [
       {
@@ -57,43 +94,7 @@ const workSlides = [
       },
     ],
     },
-    {
-      title:'ReactJs Apps',
-      slides: [
-        {
-          images: [
-            {
-              title: 'https://dashboard-vijay.vercel.app/',
-              path: '/dashboard-app.png',
-            },
-            {
-              title: 'https://vijay-chatting.vercel.app/',
-              path: '/chatapp.png',
-            },
-            {
-              title: 'https://vijay-cricket-score-backend.vercel.app/',
-              path: '/Cricket-Project-score-backend.png',
-            },
-             {
-              title: 'https://vijay-image-ai.vercel.app/',
-              path: '/imageai.png',
-            },
-          ],
-        },
-        {
-          images: [
-            {
-              title: 'https://vinstagram.vercel.app/',
-              path: '/vinstagram.png',
-            },
-            {
-              title: 'https://vijaysingh.vercel.app/',
-              path: '/portfolio.png',
-            },
-          ],
-        },
-      ],
-      },
+    
 // {
 // title:'Laravel',
 // slides: [
